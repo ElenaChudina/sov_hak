@@ -1,0 +1,21 @@
+#h0 Compile and Analyze
+
+## Tavoite
+
+Tässä tehtävässä tein yksinkertaisen C-ohjelman Debian Linuxissa.
+Sen jälkeen käänsin ohjelman ja tutkin syntynyttä binääritiedostoa.
+
+## 1. C-ohjelma
+
+Tein tiedoston `hello.c`.
+
+Ohjelman tarkoitus on tulostaa teksti "Hello World".
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello World");
+    return 0;
+}
+
