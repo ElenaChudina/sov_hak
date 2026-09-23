@@ -22,3 +22,5 @@ int main() {
 https://terokarvinen.com/hack-n-fix/
 
 sed -i 's/\t/ /g' /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py
+
+cp /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py.bak
