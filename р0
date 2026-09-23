@@ -26,3 +26,7 @@ sed -i 's/\t/ /g' /home/elena/Downloads/teros-challenges/challenges/010-staff-on
 cp /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py.bak
 
 sed -i 's|^ sql = .*| sql = "SELECT password FROM pins WHERE pin=:pin;"|' /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py
+
+sed -i 's|res=db.session.execute(text(sql))|res=db.session.execute(text(sql), {"pin": pin})|' /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py
+
+python3 -m py_compile /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py
