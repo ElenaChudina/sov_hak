@@ -43,3 +43,6 @@ sed -i '22c\ sql = "SELECT password FROM pins WHERE pin=:pin;"' /home/elena/Down
 
 
 sed -i '22c\ sql = "SELECT password FROM pins WHERE pin=:pin;"' /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py && sed -i '25c\ res=db.session.execute(text(sql), {"pin": pin})' /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py && python3 -m py_compile /home/elena/Downloads/teros-challenges/challenges/010-staff-only/staff-only.py
+
+
+https://terokarvinen.com/loota/yctjx7/ezbin-challenges.zip
