@@ -46,3 +46,34 @@ sed -i '22c\ sql = "SELECT password FROM pins WHERE pin=:pin;"' /home/elena/Down
 
 
 https://terokarvinen.com/loota/yctjx7/ezbin-challenges.zip
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char password[20];
+
+    unsigned char encoded[] = {
+        0x29, 0x3b, 0x36, 0x3b, 0x77, 0x32, 0x3b, 0x31,
+        0x31, 0x3f, 0x28, 0x33, 0x77, 0x69, 0x68, 0x6b
+    };
+
+    char correct[17];
+
+    for (int i = 0; i < 16; i++) {
+        correct[i] = encoded[i] ^ 0x5A;
+    }
+    correct[16] = '\0';
+
+    printf("What's the password?\n");
+    scanf("%19s", password);
+
+    if (strcmp(password, correct) == 0) {
+        printf("Yes! That's the password.\n");
+    } else {
+        printf("Sorry, no bonus.\n");
+    }
+
+    return 0;
+}
