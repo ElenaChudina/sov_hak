@@ -1,15 +1,4 @@
-#h0 Compile and Analyze
-
-## Tavoite
-
-Tässä tehtävässä tein yksinkertaisen C-ohjelman Debian Linuxissa.
-Sen jälkeen käänsin ohjelman ja tutkin syntynyttä binääritiedostoa.
-
-## 1. C-ohjelma
-
-Tein tiedoston `hello.c`.
-
-Ohjelman tarkoitus on tulostaa teksti "Hello World".
+https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.1.2_build/ghidra_11.1.2_PUBLIC_20240709.zip
 
 ```c
 #include <stdio.h>
