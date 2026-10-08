@@ -1,3 +1,5 @@
+FLAG{458d8580fe1f9d4d15636ab765166429}
+
 https://terokarvinen.com/loota/zei4s/shctf-2026.zip
 https://app.terokarvinen.com/lippu/game/16/submit
 
