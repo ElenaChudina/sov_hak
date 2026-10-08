@@ -3,6 +3,12 @@ FLAG{eg6Iet7aoM}
 https://terokarvinen.com/loota/zei4s/shctf-2026.zip
 https://app.terokarvinen.com/lippu/game/16/submit
 
+TERO{7d865e959b2466918c9863afca942d0f}
+- LARI{d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c}
+- FLAG{UnpxrefEhyr!}
+
+
+
 cd ~/Downloads
 esim: strings passtr (passtr=tiedoston nimi)
 strings packd | grep -Ei "password|flag|yes|sorry"
