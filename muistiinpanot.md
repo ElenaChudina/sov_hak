@@ -1,3 +1,6 @@
+https://terokarvinen.com/loota/zei4s/shctf-2026.zip
+https://app.terokarvinen.com/lippu/game/16/submit
+
 cd ~/Downloads
 esim: strings passtr (passtr=tiedoston nimi)
 strings packd | grep -Ei "password|flag|yes|sorry"
